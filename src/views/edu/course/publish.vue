@@ -32,7 +32,6 @@
       <el-button :disabled="saveBtnDisabled" type="primary" @click="publish()">发布课程</el-button>
     </div>
   </div>
-	</div>
 </template>
 <script>
 import course from '@/api/edu/course.js'
